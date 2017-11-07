@@ -1,7 +1,7 @@
 def unique(s):
   return len(s) == len(set(s))
 
-print(unique("abccde"))
+print(unique("abccdef"))
 
 def unique2(s):
   chars = set()
@@ -11,5 +11,5 @@ def unique2(s):
     else:
       chars.add(i)
       
-print(unique("abcde"))
+print(unique("abcdef"))
 
